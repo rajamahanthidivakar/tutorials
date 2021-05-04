@@ -1,0 +1,15 @@
+call(): pointing obj,param1,param2..paramn
+bind(): always it retuns function 
+apply(): pointingobj, [param1,param2..paramn]
+
+
+
+let name1={
+    firstName:"Divakar",
+    lastName:"Rajamahanthi",
+    printNames: function(){
+        console.log(this.firstName + this.lastName)
+    }
+}
+
+name1.printNames();
