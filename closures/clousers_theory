@@ -1,0 +1,14 @@
+Clousers:
+=========
+
+function a(){
+    let a;
+    let b;
+    function b(){
+        
+    }
+    b();
+}
+
+
+
