@@ -1,0 +1,87 @@
+/* 
+body
+=========================================
+box model====> margin, border, padding
+
+content ===> padding (inside)
+padding  =====> outside border
+==========================================
+
+fonts
+line height
+colors
+container
+div
+================
+selectors
+class ==> .
+id ===> #
+
+external css
+===============
+link tag ==> rel, type , href
+
+tags,selectors
+
+
+colors
+=======
+#hexadecimal
+names
+RGB(0,0,0,0)
+
+margin
+=========
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+margin:0px 0px 0px 0px
+
+
+*/
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+}*/
+
+
+body{
+background-color: #ffffff;
+color:	#000000;
+/*fonts*/
+font-family: Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-style: italic;
+}
+/* bootstrap*/
+.container{
+    /* px place ===> % */
+    width: 80%;
+    margin:auto;
+    /*line height*/
+    line-height: normal;
+}
+
+.box1{
+    background-color: gray;
+    color: white;
+    /*border intro*/
+    border: 5px red solid;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    
+    
+
+    /* box model */
+
+    
+
+}
+
