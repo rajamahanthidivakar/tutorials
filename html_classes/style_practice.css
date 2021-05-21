@@ -1,0 +1,85 @@
+body{
+    width: 80%;
+    background-color:black;
+}
+
+.square{
+    width: 150px;
+    height:150px;
+    background-color:yellow;
+    margin-left: 500px;
+    margin-top: 250px;
+    border-radius: 50%;
+}
+
+.square::before{
+    content:"";
+    display: block;
+    background-color:black;
+    width: 30px; 
+    height: 30px;
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    border-radius: 50%;
+    border-bottom: 10px black solid;
+}
+
+.square::after{
+    content:"";
+    display: block;
+    background-color:black;
+    width: 30px; 
+    height: 30px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    border-radius: 50%;
+    border-bottom: 10px black solid;
+}
+
+.smile{
+    height:50px;
+    width:100px;
+    border:1px solid black;
+    border-top: 0px;
+    border-radius: 0px 0px 60px 60px;
+    position: absolute;
+    left:530px;
+    top: 380px;
+}
+
+
+.eye{
+    border: 2px solid red;
+    border-radius: 100%;
+    position: relative;
+    width: 2em; height: 2em;
+    
+    transition: width .3s ease-in-out, height .3s ease-in-out;
+  }
+  .eye::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1em; 
+    height: 1em;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    border-radius: 100%;
+    
+    transition: width, height;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .eye:hover{
+    width: 1.9em; height: 1.9em;
+  }
+  
+  .eye:focus::before{
+    width: 1.5em; height:1.5em;
+  }
+
+ 
